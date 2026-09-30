@@ -81,7 +81,6 @@ public class ConjuntoGeometrico {
 	public String toString() {
 		StringBuilder relat = new StringBuilder("CONJUNTO COM "+capacidade+" FORMAS GEOMÉTRICAS:\n");
 		for (FormaGeometrica forma : formas) {
-			if(forma!=null)
             	relat.append(forma+"\n");
         }
 		return relat.toString();
